@@ -1,4 +1,4 @@
-# Radiator-Stage-2-Test
+# Radiator Stage 2 Test
 
 ## How to run the Project
 
