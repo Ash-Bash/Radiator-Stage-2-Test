@@ -45,3 +45,11 @@ Once this has been done you are now ready to view the Webpage / Project.
 ## Parts that show off my strengths
 
 ## Extra stuff done that is to try and showcase my best work & skills
+
+## Journey
+
+### Day 1
+
+### Day 2
+
+### Day 3
