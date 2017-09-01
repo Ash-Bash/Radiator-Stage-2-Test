@@ -1,6 +1,30 @@
+html {
+    box-sizing: border-box;
+}
+
 body {
-    margin: 0;
     background-color: rgb(80, 45, 28);
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+#app {
+    min-height: 100%;
+    position: relative;
+}
+
+.appView {
+    height: 5037px;
 }
 
 .backgroundHeaderImage {
@@ -12,45 +36,105 @@ body {
 }
 
 .backgroundView {
-    position: absolute;
     width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    top:0;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    height: 4731px;
+    width: 1440px;
+}
+
+.navbar {
+    width: 80%;
+    height: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.navbarContent {
+    width: 100%;
+    height: 80px;
+    margin-top: 30px;
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: 0px 0px 25px;
+}
+
+.navbarSocialContent {
+
+}
+
+.navbarBadgeLogo {
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 15px;
+    top:0;
+    transform: scale(0.9, 0.9);
+    -ms-transform: scale(0.9, 0.9);
+    -webkit-transform: scale(0.9, 0.9);
+    -webkit-filter: drop-shadow(0px 0px 5px #222);
+    filter: drop-shadow(0px 0px 5px #222);
+}
+
+.content {
+    border-radius: 4px;
+    box-shadow: 0px 0px 15px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 306px;
+    background-image: url("/images/FooterBackgroundImage.png");
+    background-repeat: repeat-x;
+    color: white;
+}
+
+.navbarContent, .content {
+    background-color: white;
 }
 
 @media screen and (min-width: 320px) {
-    body {
-        background-color: red;
-    }
+    /*Any Screen Width Size Starting from 320 Pixels for Small Screens Like (iphone5-portrait, android-portrait, etc)*/
+}
+
+@media screen and (min-width: 375px) {
+    /*Any Screen Width Size Starting from 375 Pixels for Medium Screens Like (iphone6-portrait, android-portrait, etc)*/
+}
+
+@media screen and (min-width: 425px) {
+    /*Any Screen Width Size Starting from 425 Pixels for Large Screens Like (iphone6plus-portrait, android-portrait, etc)*/
 }
 
 @media screen and (min-width: 480px) {
-    body {
-        background-color: green;
-    }
+    /*Any Screen Width Size Starting from 480 Pixels for Small Screens in Landscape Mode Like (iphone5-portrait, android-portrait, etc)*/
 }
 
 @media screen and (min-width: 768px) {
-    body {
-        background-color:greenyellow;
-    }
+    /*Any Screen Width Size Starting from 768 Pixels for Table Screens in Portrait Mode Like iPad*/
 }
 
 @media screen and (min-width: 960px) {
-    body {
-        background-color: goldenrod;
-    }
+    /*Any Screen Width Size Starting from 960 Pixels*/
 }
 
 @media screen and (min-width: 1024px) {
-    body {
-        background-color: blue;
-    }
+    /*Any Screen Width Size Starting from 1024 Pixels for Small Desktop Screens and Tables in Landscape Mode Like iPad*/
 }
 
 @media screen and (min-width: 1440px) {
-    body {
-        background-color: cornflowerblue;
-    }
-
+    /*Any Screen Width Size Starting from 1440 Pixels for Medium Desktop Screens*/
     .backgroundHeaderImage, .backgroundWoodTextureImage {
         margin-left: auto; 
         margin-right: auto;
@@ -60,7 +144,5 @@ body {
 }
 
 @media screen and (min-width: 1920px) {
-    body {
-        background-color: blueviolet;
-    }
+    /*Any Screen Width Size Starting from 1920 Pixels for Large Desktop Screens that are 1080p or over*/
 }
