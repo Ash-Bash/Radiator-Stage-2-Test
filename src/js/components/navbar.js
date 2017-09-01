@@ -7,7 +7,7 @@ export default class NavBar extends React.Component {
                 <img className="navbarBadgeLogo" src="./images/CompanyBadgeLogo.png"/>
                 <div className="navbarSocialContent"></div>
                 <div className="navbarContent">
-                    <h2>Hello, World!</h2>
+                    <button className="mobileNavBarMenu">Menu</button>
                 </div>
             </div>
         );

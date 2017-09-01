@@ -4,7 +4,9 @@ html {
 }
 
 body {
-    background-color: rgb(80, 45, 28);
+    /*background-color: rgb(80, 45, 28);*/
+    background-image: url("/images/BackgroundImage_WoodTexture.png");
+    background-repeat: repeat;
 }
 
 html, body {
@@ -30,10 +32,10 @@ html, body {
 
 .backgroundHeaderImage {
     position: absolute;
-}
-
-.backgroundWoodTextureImage {
-    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
 }
 
 .backgroundView {
@@ -48,8 +50,7 @@ html, body {
     margin-right: auto;
     left: 0;
     right: 0;
-    height: 4731px;
-    width: 1440px;
+    width: 70%;
 }
 
 .navbar {
@@ -110,17 +111,13 @@ html, body {
 }
 
 .contentBody {
-    height: 512px;
+    height: 812px;
     box-shadow: 0px 0px 10px;
     background-color: white;
     margin-left: auto;
     margin-right: auto;
     left: 0;
     right: 0;
-}
-
-.contentBody, .navbar {
-    width: 80%;
 }
 
 .contentBody, .headerCarousel {
@@ -130,12 +127,11 @@ html, body {
 
 .filterbar {
     background-image: url("/images/BlueBannerImage.png");
-    background-repeat: repeat-x;
+    background-repeat: repeat;
     color: white;
 }
 
 .filterbarContent {
-    width: 80%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -192,14 +188,115 @@ html, body {
 
 .filterbar, .topFilterBar, .bottomFilterBar {
     width: 100%;
-    height: 72px;
+}
+
+@media screen and (min-width: 300px) {
+    .backgroundHeaderImage {
+        width: 100%;
+        height: auto;
+    }
+    
+    .contentBody, .navbar {
+        width: 95%;
+    }
+    .wrapper {
+        width: 100%;
+    }
+
+    .navbar {
+        width: 80%;
+        height: 60px;
+    }
+    
+    .navbarContent {
+        width: 100%;
+        height: 50px;
+        margin-top: 10px;
+    }
+    
+    .navbarSocialContent {
+        width: 100%;
+    }
+    
+    .navbarBadgeLogo {
+        margin-top: -60px;
+        margin-left: -40px;
+        transform: scale(0.4, 0.4);
+        -ms-transform: scale(0.4, 0.4);
+        -webkit-transform: scale(0.4, 0.4);
+    }
+
+    .headerCarousel {
+        text-align: center;
+        width: 100%;
+        height: 140px;
+        margin-bottom: 20px;
+    }
+
+    .filterbar, .topFilterBar, .bottomFilterBar {
+        height: 258px;
+    }
+
+    .filterBarItems {
+        display: block;
+        margin-left: auto; 
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+
+    .filterSelectBox {
+        width: 80%;
+    }
+
+    .filterButton {
+        margin-top: 15px;
+        width: 80%;
+    }
+
+    .mobileNavBarMenu {
+        display: block;
+        height: 100%;
+        width: calc(width);
+        float: right;
+    }
 }
 
 @media screen and (min-width: 320px) {
     /*Any Screen Width Size Starting from 320 Pixels for Small Screens Like (iphone5-portrait, android-portrait, etc)*/
+    .backgroundHeaderImage {
+        width: 100%;
+        height: auto;
+    }
+    
     .contentBody, .navbar {
         width: 95%;
     }
+    .wrapper {
+        width: 100%;
+    }
+
+    .filterbar, .topFilterBar, .bottomFilterBar {
+        height: 258px;
+    }
+
+    .filterBarItems {
+        display: block;
+        margin-left: auto; 
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+
+    .filterSelectBox {
+        width: 60%;
+    }
+
+    .filterButton {
+        margin-top: 15px;
+        width: 60%;
+    }
+    
 }
 
 @media screen and (min-width: 375px) {
@@ -214,8 +311,76 @@ html, body {
     /*Any Screen Width Size Starting from 480 Pixels for Small Screens in Landscape Mode Like (iphone5-portrait, android-portrait, etc)*/
 }
 
+@media screen and (min-width: 640px) {
+    .filterbarContent {
+        width: 95%;
+    }
+}
+
+@media screen and (min-width: 720px) {
+
+    .headerCarousel {
+        text-align: center;
+        width: 100%;
+        height: 240px;
+        margin-bottom: 30px;
+    }
+
+    .filterbar, .topFilterBar, .bottomFilterBar {
+        height: 72px;
+    }
+
+    .filterBarItems {
+        display: inline-block;
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+
+    .filterSelectBox {
+        width: 120px;
+    }
+
+    .filterButton {
+        margin-top: 0px;
+        width: auto;
+    }
+}
+
 @media screen and (min-width: 768px) {
     /*Any Screen Width Size Starting from 768 Pixels for Table Screens in Portrait Mode Like iPad*/
+    .navbar {
+        height: 130px;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+    
+    .navbarContent {
+        width: 100%;
+        height: 80px;
+        margin-top: 30px;
+    }
+    
+    .navbarSocialContent {
+    
+    }
+    
+    .navbarBadgeLogo {
+        position: absolute;
+        margin-top: -10px;
+        margin-left: 15px;
+        transform: scale(0.9, 0.9);
+        -ms-transform: scale(0.9, 0.9);
+        -webkit-transform: scale(0.9, 0.9);
+    }
+
+    .headerCarousel {
+        text-align: center;
+        width: 100%;
+        height: 200px;
+        margin-bottom: 30px;
+    }
 }
 
 @media screen and (min-width: 960px) {
@@ -227,15 +392,21 @@ html, body {
     .contentBody, .navbar {
         width: 80%;
     }
+    .mobileNavBarMenu {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1440px) {
     /*Any Screen Width Size Starting from 1440 Pixels for Medium Desktop Screens*/
-    .backgroundHeaderImage, .backgroundWoodTextureImage {
+    .backgroundHeaderImage {
         margin-left: auto; 
         margin-right: auto;
         left: 0;
         right: 0;
+        width: 1440px;
+        height: auto;
+        
     }
 }
 
