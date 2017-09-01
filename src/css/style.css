@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    background-color: rgb(80, 45, 28);
+}
+
+.backgroundHeaderImage {
+    position: absolute;
+}
+
+.backgroundWoodTextureImage {
+    position: absolute;
+}
+
+.backgroundView {
+    position: absolute;
+    width: 100%;
+}
+
+@media screen and (min-width: 320px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    body {
+        background-color: green;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-color:greenyellow;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    body {
+        background-color: goldenrod;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        background-color: blue;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        background-color: cornflowerblue;
+    }
+
+    .backgroundHeaderImage, .backgroundWoodTextureImage {
+        margin-left: auto; 
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    body {
+        background-color: blueviolet;
+    }
+}

@@ -1,12 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+//Components
+import BackgroundView from "./components/backgroundview";
+
 class App extends React.Component {
     render() {
         return (
             <div>
-                <h1>Hello, World!</h1>
-                <p>LOL Test</p>
+                <BackgroundView className="backgroundView"/>
             </div>
         );
     }
