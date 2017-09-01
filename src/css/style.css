@@ -395,6 +395,19 @@ html, body {
     .mobileNavBarMenu {
         display: none;
     }
+
+    .headerCarousel {
+        text-align: center;
+        width: 100%;
+        height: 260px;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (min-width: 1600px){
+    .contentBody, .navbar {
+        width: calc(1440px * 0.8);
+    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -407,6 +420,17 @@ html, body {
         width: 1440px;
         height: auto;
         
+    }
+
+    .headerCarousel {
+        text-align: center;
+        margin-left: auto; 
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        width: 1440px;
+        height: 360px;
+        margin-bottom: 80px;
     }
 }
 
