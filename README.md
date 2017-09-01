@@ -39,6 +39,17 @@ Once this has been done you are now ready to view the Webpage / Project.
 * webpack-dev-server (` npm install --save webpack-dev-server `)
 
 ### Advantages of the Packagaes and Technologies Used
+#### Babel
+The benfits on using babel it allows you to use latest and greatest programming languages that are designed for Web Development like ES6 / ES2015 & Typescript which are not currently in the latest Web Browsers. What babel does to get your project that is programmed using ES6 for example, is to transpile Your ES6 code into ES5 Code which has been around since 2009 because ES5 is the standard JavaScript Version that runs on all common & current Web Browsers.
+
+#### Webpack
+This package / framework works in tendom with Babel for this project atleast, where babel transpiles ES6 code to ES5 Code, webpack grabs the newly converted code that Babel transpiled and bundles & compiles each script (Which Babel for this project doesnt Physicly create these files, just transfers the data to Webpack to compile) into one big main script for the HTML file to read.
+
+#### Webpack Dev Server
+This package is an addon to webpack which allows for realtime changes to your projects that does not require you to recompile / retranspile everytime you make a change to your code.
+
+#### React
+React is a Javascript Framework that help you create more dynamic web pages that could'nt be possible with conventional methods. Also with React it allows you to manage your HTML Code it bitsize pieces which React calls them Components and in my opinion simplifies web development.
 
 ## Troubles while developing this Project
 
