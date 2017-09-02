@@ -35,7 +35,12 @@ export default class FooterBar extends React.Component {
                         </div>
                     </div>
                     <div className="footercontent-copyrightfooter">
-                        
+                        <div className="footercontent-copyrightleftcontent">
+                            <h6>La Giettaz Properties SARL 2017</h6>
+                        </div>
+                        <div className="footercontent-copyrightrightcontent">
+                            <h6>Site By <strong>RADIATOR</strong></h6>
+                        </div>
                     </div>
                 </div>
             </div>

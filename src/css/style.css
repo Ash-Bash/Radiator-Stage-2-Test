@@ -277,6 +277,31 @@ button {
     bottom: 0;
 }
 
+.footercontent-copyrightleftcontent {
+    float: left;
+}
+
+.footercontent-copyrightrightcontent {
+    float: right;
+}
+
+.footercontent-copyrightleftcontent, .footercontent-copyrightrightcontent {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.footercontent-copyrightleftcontent h6, .footercontent-copyrightrightcontent h6 {
+    height: 40px; 
+    margin: 0px;
+    padding-top: 12px;
+    color: #73787B
+}
+
+.footercontent-companyname {
+    font-weight: bold;
+}
+
 .footercontent-contactdetails, .footercontent-copyrightfooter {
     width: 100%;
     margin-top: 0px;
