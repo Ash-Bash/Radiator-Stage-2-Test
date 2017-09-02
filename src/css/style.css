@@ -99,6 +99,10 @@ button {
     width: 70%;
 }
 
+.hyperlink {
+    color: #B8273E;
+}
+
 .navbar {
     width: 80%;
     height: 130px;
@@ -150,8 +154,11 @@ button {
     margin-right: 0px;
 }
 
-.navbaritem, .navbariconitem, .navbarcaladaritem, .navbarmenuitembtn, .navbarsocialitem {
+.navbaritem, .navbariconitem, .navbarcaladaritem, .navbarmenuitembtn, .navbarsocialitem{
     height: 100%;
+}
+
+.navbaritem, .navbariconitem, .navbarcaladaritem, .navbarmenuitembtn, .navbarsocialitem, .footerbarsocialitem {
     color: #00579A;
     text-decoration: none;
     vertical-align: middle;
@@ -184,6 +191,12 @@ button {
     top: 0;
 }
 
+.footerbarsocialitem {
+    width: 40px;
+    height: 40px;
+    float: right;
+}
+
 .navbaritem:hover, .navbariconitem:hover {
     background-color: lightblue;
     border: 0;
@@ -207,12 +220,12 @@ button {
     order: 0;
 }
 
-.navbarsocialitem:hover {
+.navbarsocialitem:hover, .footerbarsocialitem:hover {
     background-color: rgba(255, 255, 255, 0.55);
     border: 0;
 }
 
-.navbarsocialitem:active{
+.navbarsocialitem:active, .footerbarsocialitem:active{
     background-color: rgba(0, 0, 0, 0.55);
     border: 0;
 }
@@ -226,6 +239,12 @@ button {
 .navbaritemcaladaricon, .navbaritemmenuicon {
     width: 20px;
     height: auto;
+    margin: auto;
+}
+
+.footerbaritemsocialicon {
+    width: auto;
+    height: 20px;
     margin: auto;
 }
 
@@ -243,12 +262,80 @@ button {
     color: white;
 }
 
+.footercontent {
+    position: relative;
+    height: 100%;
+}
+
+.footercontent-contactdetails {
+    height: calc(100% - 48px);
+}
+
+.footercontent-copyrightfooter {
+    height: 41px;
+    position: absolute; 
+    bottom: 0;
+}
+
+.footercontent-contactdetails, .footercontent-copyrightfooter {
+    width: 100%;
+    margin-top: 0px;
+}
+
+.footerdetailheader {
+    color: #73787B
+}
+
+.footercontent-addressdetails {
+    
+}
+    
+.footercontent-telandemaildetails {
+    
+}
+    
+.footercontent-socialdetails {
+    float: right;
+}
+
+.footercontent-addressdetails, .footercontent-telandemaildetails {
+    margin-right: 40px;
+    float: left;
+}
+    
+.footercontent-addressdetails, .footercontent-telandemaildetails, .footercontent-socialdetails {
+    display: inline;
+}
+ 
+.footercontent-newsletter {
+    width: 100%;
+    height: 64px;
+    border: 1px dotted #B8273E;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footercontent-sociallinks {
+    margin-top: 20px;
+}
+
+.newsletter-icon {
+    margin-right: 10px !important;
+}
+
+.newsletter-icon, .newsletter-title {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
 .headerCarousel {
     text-align: center;
     width: 100%;
     height: 360px;
     margin-bottom: 80px;
-    background-color: rgba(255, 255, 255, 0.55);
 }
 
 .contentBody {
@@ -344,6 +431,10 @@ button {
     .wrapper, .footercontent {
         width: 100%;
     }
+    
+    .footercontent {
+        width: auto;
+    }
 
     .navbar {
         width: 90%;
@@ -421,6 +512,12 @@ button {
         width: 100%;
     }
 
+    .footercontent {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: auto;
+    }
+
     .navbar {
         width: 80%;
         height: 60px;
@@ -496,6 +593,12 @@ button {
 
     .wrapper, .footercontent {
         width: 100%;
+    }
+
+    .footercontent {
+        margin-left: 15px;
+        margin-right: 15px;
+        width: auto;
     }
 
     .filterbar, .topFilterBar, .bottomFilterBar {
@@ -617,6 +720,11 @@ button {
 
 @media screen and (min-width: 960px) {
     /*Any Screen Width Size Starting from 960 Pixels*/
+    .footercontent {
+        margin-left: 40px;
+        margin-right: 40px;
+        width: auto;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -631,9 +739,19 @@ button {
         height: 260px;
         margin-bottom: 40px;
     }
+
+    .footercontent {
+        margin-left: 40px;
+        margin-right: 40px;
+        width: auto;
+    }
+
+    .footercontent-contactdetails {
+        padding-top: 32px;
+    }
 }
 
-@media screen and (min-width: 1320px){
+@media screen and (min-width: 1280px){
     .navbarmenuitem-dropdown {
         display: none;
     }
@@ -647,6 +765,14 @@ button {
 
     .navbarSocialContent {
         display: block;
+    }
+    .footercontent {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .wrapper, .footercontent {
+        width: 70%;
     }
 }
 
@@ -674,13 +800,21 @@ button {
         margin-right: auto;
         left: 0;
         right: 0;
-        width: 1440px;
         height: 360px;
         margin-bottom: 80px;
+        padding-top: 90px;
+        color: white;
     }
 
     .wrapper, .footercontent {
         width: 70%;
+    }
+
+    .footercontent {
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
     }
 }
 
