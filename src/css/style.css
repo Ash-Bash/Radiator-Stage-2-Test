@@ -96,7 +96,7 @@ html, body {
     margin-right: 10px;
 }
 
-.navbaritem, .navbariconitem, .navbarcaladaritem {
+.navbaritem, .navbariconitem, .navbarcaladaritem, .navbarmenuitem {
     height: 100%;
     color: #00579A;
     text-decoration: none;
@@ -110,10 +110,17 @@ html, body {
     width: 48px;
 }
 
-.navbarcaladaritem {
-    width: 80px;
+.navbarcaladaritem, .navbarmenuitem {
     background-image: url("/images/BlueBannerImage.png");
     background-repeat: repeat;
+}
+
+.navbarcaladaritem {
+    width: 80px;
+}
+
+.navbarmenuitem {
+    display: none;
 }
 
 .navbaritem:hover, .navbariconitem:hover {
@@ -127,14 +134,16 @@ html, body {
     border: 0;
 }
 
-.navbarcaladaritem:hover {
+.navbarcaladaritem:hover, navbarmenuitem:hover {
     background-image: url("/images/BlueBannerImage_hover.png");
     background-repeat: repeat;
+    order: 0;
 }
 
-.navbarcaladaritem:active {
+.navbarcaladaritem:active, .navbarmenuitem:active {
     background-image: url("/images/BlueBannerImage_active.png");
     background-repeat: repeat;
+    order: 0;
 }
 
 .navbaritemicon {
@@ -143,7 +152,7 @@ html, body {
     margin: auto;
 }
 
-.navbaritemcaladaricon {
+.navbaritemcaladaricon, .navbaritemmenuicon {
     width: 20px;
     height: auto;
     margin: auto;
@@ -306,20 +315,23 @@ html, body {
         right: 0;
     }
 
-    .filterSelectBox {
+    .filterSelectBox, .filterButton {
         width: 80%;
     }
 
     .filterButton {
         margin-top: 15px;
-        width: 80%;
     }
 
-    .mobileNavBarMenu {
+    .navbarmenuitem {
         display: block;
         height: 100%;
-        width: calc(width);
+        width: 48px;
         float: right;
+    }
+
+    .navbaritem, .navbariconitem, .navbarcaladaritem{
+        display: none;
     }
 }
 
@@ -349,19 +361,21 @@ html, body {
         right: 0;
     }
 
-    .filterSelectBox {
-        width: 60%;
+    .filterSelectBox, .filterButton {
+        width: 80%;
     }
 
     .filterButton {
         margin-top: 15px;
-        width: 60%;
     }
     
 }
 
 @media screen and (min-width: 375px) {
     /*Any Screen Width Size Starting from 375 Pixels for Medium Screens Like (iphone6-portrait, android-portrait, etc)*/
+    .navbarmenuitem {
+        width: 60px;
+    }
 }
 
 @media screen and (min-width: 425px) {
@@ -375,6 +389,10 @@ html, body {
 @media screen and (min-width: 640px) {
     .filterbarContent {
         width: 95%;
+    }
+
+    .navbarmenuitem {
+        width: 70px;
     }
 }
 
@@ -404,6 +422,10 @@ html, body {
     .filterButton {
         margin-top: 0px;
         width: auto;
+    }
+
+    .navbarmenuitem {
+        width: 75px;
     }
 }
 
@@ -442,6 +464,10 @@ html, body {
         height: 200px;
         margin-bottom: 30px;
     }
+
+    .navbarmenuitem {
+        width: 80px;
+    }
 }
 
 @media screen and (min-width: 960px) {
@@ -453,15 +479,21 @@ html, body {
     .contentBody, .navbar {
         width: 80%;
     }
-    .mobileNavBarMenu {
-        display: none;
-    }
 
     .headerCarousel {
         text-align: center;
         width: 100%;
         height: 260px;
         margin-bottom: 40px;
+    }
+}
+
+@media screen and (min-width: 1320px){
+    .navbarmenuitem {
+        display: none;
+    }
+    .navbaritem, .navbariconitem, .navbarcaladaritem{
+        display: inline-block;
     }
 }
 

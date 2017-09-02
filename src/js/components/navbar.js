@@ -4,6 +4,7 @@ import React from "react";
 import NavBarItem from "./navbaritem";
 import NavBarIconItem from "./navbariconitem";
 import NavBarCaladarItem from "./navbarcaladaritem";
+import NavBarMenuItem from "./navbarmenuitem";
 
 export default class NavBar extends React.Component {
     render() {
@@ -22,7 +23,7 @@ export default class NavBar extends React.Component {
                     <NavBarIconItem icon="/images/badges/GB.png" link="#"/>
                     <NavBarIconItem icon="/images/badges/FR.png" link="#"/>
                     <NavBarCaladarItem icon="/images/badges/Cal.png" link="#"/>
-                    <button className="mobileNavBarMenu">Menu</button>
+                    <NavBarMenuItem icon="/images/badges/Menu Filled-50.png" link="#"/>
                 </div>
             </div>
         );
