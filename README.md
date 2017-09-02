@@ -60,9 +60,10 @@ React is a Javascript Framework that help you create more dynamic web pages that
 
 ## Extra stuff done that is to try and showcase my best work & skills
 
-## Journey
+## Journal
 
 ### Day 1
+On day one I started by thinking of what technologies I wanted to use, then once I choosen theses technologies I wanted to use, I started laying out what will become the Layout which at first the Background was an actual React Component but after a few responsive bug problems I decided it would be better if the Wood Textured background was rendered has the Background Image of the actual HTML Element. By around 1pm I had the basics of what the Layout was but still need work to get it working with smaller devices, and the early version of the Layout was the Shell of the NavBar, Content View & FooterBar. By the end of the day I managed to get basic layout to be responsive to Smaller Screens but it would be until Day 2 that I would Manage to Populate the NavBar View with NavBarItems.
 
 ### Day 2
 
