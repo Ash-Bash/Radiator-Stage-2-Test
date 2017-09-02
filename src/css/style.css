@@ -48,10 +48,11 @@ button {
 
 /* Links inside the dropdown */
 .dropdown-content a {
-    color: black;
+    color:  #00579A;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    font-weight: bold;
 }
 
 /* Change color of dropdown links on hover */
@@ -61,6 +62,8 @@ button {
 .navbarmenuitem-dropdown:hover .dropdown-content {
     display: block;
 }
+
+/*END OF DROPDOWN BOX STYLE*/
 
 /*BASE LAYOUT STYLE*/
 
@@ -257,22 +260,33 @@ button {
     left: 0;
     width: 100%;
     height: 306px;
-    background-image: url("/images/FooterBackgroundImage.png");
-    background-repeat: repeat-x;
+    background-image: url("/images/FooterDarkGrayBackgroundTexture.png");
+    background-repeat: repeat;
     color: white;
 }
 
 .footercontent {
     position: relative;
     height: 100%;
+    width: 100%;
+    padding-top: 10px;
+    margin: 0px;
+}
+
+.footercontent-contactdetails-container {
+    width: 100%;
+    height: calc(100% - 48px);
+    background-image: url("/images/FooterGrayBackgroundTexture.png");
+    background-repeat: repeat;
 }
 
 .footercontent-contactdetails {
-    height: calc(100% - 48px);
+    height: 100%;
 }
 
 .footercontent-copyrightfooter {
     height: 41px;
+    width: 100%;
     position: absolute; 
     bottom: 0;
 }
@@ -453,12 +467,41 @@ button {
         width: 97%;
     }
 
-    .wrapper, .footercontent {
+    .footer, .footercontent {
+        height: 560px;
+    }
+
+    .footercontent {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .wrapper, .footercontent-contactdetails, .footercontent-copyrightfooter {
         width: 100%;
+        text-align: center;
     }
     
-    .footercontent {
+    .footercontent-contactdetails, .footercontent-copyrightfooter {
         width: auto;
+        text-align: center;
+    }
+
+    .footercontent-contactdetails-container {
+        height: calc(100% - 48px);
+        background-image: url("/images/FooterGrayBackgroundTexture.png");
+        background-repeat: repeat;
+    }
+
+    .footercontent-addressdetails, .footercontent-telandemaildetails, .footercontent-socialdetails {
+        display: block;
+        margin-left: auto; 
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+
+    .footercontent-socialdetails {
+        float: left;
     }
 
     .navbar {
@@ -533,14 +576,38 @@ button {
         width: 95%;
     }
 
-    .wrapper, .footercontent {
+    .wrapper, .footercontent-contactdetails{
+        width: auto;
+    }
+
+    .wrapper, .footercontent-contactdetails, .footercontent-copyrightfooter {
+        text-align: center;
+    }
+
+    .footercontent-contactdetails {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .footercontent-copyrightfooter {
+        width: calc(100% - 40px);
+    }
+
+    .footercontent-contactdetails-container {
+        height: 503px;
+    }
+
+    .footercontent-addressdetails, .footercontent-telandemaildetails, .footercontent-socialdetails {
+        display: block;
         width: 100%;
     }
 
-    .footercontent {
-        margin-left: 10px;
-        margin-right: 10px;
-        width: auto;
+    .footercontent-socialdetails {
+        float: left;
+    }
+
+    .footer, .footercontent {
+        height: 560px;
     }
 
     .navbar {
@@ -616,14 +683,28 @@ button {
         width: 95%;
     }
 
-    .wrapper, .footercontent {
-        width: 100%;
+    .wrapper, .footercontent-contactdetails{
+        width: auto;
     }
 
-    .footercontent {
-        margin-left: 15px;
-        margin-right: 15px;
-        width: auto;
+    .wrapper, .footercontent-contactdetails, .footercontent-copyrightfooter {
+        text-align: center;
+    }
+
+    .footercontent-contactdetails, .footercontent-copyrightfooter {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .footercontent-addressdetails, .footercontent-telandemaildetails, .footercontent-socialdetails {
+        margin-left: auto; 
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+
+    .footercontent-copyrightfooter {
+        width: calc(100% - 20px);
     }
 
     .filterbar, .topFilterBar, .bottomFilterBar {
@@ -652,6 +733,14 @@ button {
     /*Any Screen Width Size Starting from 375 Pixels for Medium Screens Like (iphone6-portrait, android-portrait, etc)*/
     .navbarmenuitem {
         width: 60px;
+    }
+
+    .footercontent-copyrightleftcontent {
+        float: left;
+    }
+    
+    .footercontent-copyrightrightcontent {
+        float: right;
     }
 }
 
@@ -743,12 +832,96 @@ button {
     }
 }
 
+@media screen and (min-width: 813px) {
+    /*Any Screen Width Size Starting from 880 Pixels*/
+    .footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 306px;
+        background-image: url("/images/FooterDarkGrayBackgroundTexture.png");
+        background-repeat: repeat;
+        color: white;
+    }
+    
+    .footercontent {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        padding-top: 10px;
+        margin: 0px;
+    }
+    
+    .footercontent-contactdetails-container {
+        width: 100%;
+        height: calc(100% - 48px);
+        background-image: url("/images/FooterGrayBackgroundTexture.png");
+        background-repeat: repeat;
+    }
+
+    .footercontent-contactdetails {
+        padding-top: 32px;
+        text-align: left;
+    }
+
+    .footercontent-socialdetails {
+        float: right;
+        width:  300px;
+    }
+
+    .footercontent-addressdetails, .footercontent-telandemaildetails {
+        margin-right: 10px;
+        float: left;
+    }
+
+    .footercontent-newsletter {
+        width: 100%;
+        height: 72px;
+    }
+
+    .footercontent-addressdetails, .footercontent-telandemaildetails, .footercontent-socialdetails {
+        display: block;
+        width: auto;
+    }
+
+}
+
+@media screen and (min-width: 880px) {
+    /*Any Screen Width Size Starting from 880 Pixels*/
+    .footercontent-contactdetails {
+        padding-top: 32px;
+    }
+    .footercontent-socialdetails {
+        float: right;
+        width: auto;
+    }
+
+    .footercontent-newsletter {
+        width: 100%;
+        height: 64px;
+    }
+
+    .footercontent-addressdetails, .footercontent-telandemaildetails {
+        margin-right: 40px;
+        float: left;
+    }
+
+}
+
 @media screen and (min-width: 960px) {
     /*Any Screen Width Size Starting from 960 Pixels*/
-    .footercontent {
+    .footercontent-contactdetails{
+        width: auto;
+    }
+
+    .footercontent-contactdetails, .footercontent-copyrightfooter {
         margin-left: 40px;
         margin-right: 40px;
-        width: auto;
+    }
+
+    .footercontent-copyrightfooter {
+        width: calc(100% - 80px);
     }
 }
 
@@ -763,16 +936,6 @@ button {
         width: 100%;
         height: 260px;
         margin-bottom: 40px;
-    }
-
-    .footercontent {
-        margin-left: 40px;
-        margin-right: 40px;
-        width: auto;
-    }
-
-    .footercontent-contactdetails {
-        padding-top: 32px;
     }
 }
 
@@ -791,12 +954,15 @@ button {
     .navbarSocialContent {
         display: block;
     }
-    .footercontent {
-        margin-left: 0px;
-        margin-right: 0px;
+    
+    .footercontent-contactdetails, .footercontent-copyrightfooter {
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
     }
 
-    .wrapper, .footercontent {
+    .wrapper, .footercontent-contactdetails, .footercontent-copyrightfooter {
         width: 70%;
     }
 }
@@ -831,11 +997,11 @@ button {
         color: white;
     }
 
-    .wrapper, .footercontent {
+    .wrapper, .footercontent-contactdetails, .footercontent-copyrightfooter {
         width: 70%;
     }
 
-    .footercontent {
+    .footercontent-contactdetails, .footercontent-copyrightfooter {
         margin-left: auto;
         margin-right: auto;
         left: 0;
