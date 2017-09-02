@@ -9,6 +9,9 @@ npm install
 npm run dev
 ```
 
+To build the project ready for putting on a Web Server that does not have not but ether Apache or Microsoft IIS then after you do `npm install`, type this command
+`npm run build` (if command line gives an error but `client.min.js` is in the src dir then this ignore the error messages) if you want to test `npm run build` make sure you backup & delete `client.min.js` in the src dir before testing the command out so that you can see it working.
+
 Once you have entered theses commands It should then tell you to open a Browser and go to:
 `http://localhost:8080/`
 Once this has been done you are now ready to view the Webpage / Project.
