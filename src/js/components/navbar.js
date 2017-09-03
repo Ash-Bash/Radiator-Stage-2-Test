@@ -11,13 +11,14 @@ export default class NavBar extends React.Component {
     render() {
         return (
             <div className="navbar">
-                <img className="navbarBadgeLogo" src="./images/CompanyBadgeLogo.png"/>
                 <div className="navbarSocialContent">
+                
                     <NavBarSocialItem icon="/images/badges/social_instagram.png" link=""/>
                     <NavBarSocialItem icon="/images/badges/social_twitter.png" link=""/>
                     <NavBarSocialItem icon="/images/badges/social_facebook.png" link=""/>
                 </div>
                 <div className="navbarContent">
+                <img className="navbarBadgeLogo" src="./images/CompanyBadgeLogo.png"/>
                     <NavBarItem title="The Chalet" link="#"/>
                     <NavBarItem title="The Village" link="#"/>
                     <NavBarItem title="Winter" link="#"/>

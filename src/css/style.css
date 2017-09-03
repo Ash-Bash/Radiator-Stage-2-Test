@@ -29,9 +29,8 @@ button {
 
 /* The container <div> - needed to position the dropdown content */
 .navbarmenuitem-dropdown {
-    display: block;
+    display: inline-block;
     position: relative;
-    float: left;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -136,18 +135,19 @@ button {
 }
 
 .navbarBadgeLogo {
-    position: absolute;
-    margin-top: -10px;
-    margin-left: 15px;
+    margin-top: -50px;
+    margin-left: auto;
     top:0;
-    transform: scale(0.9, 0.9);
-    -ms-transform: scale(0.9, 0.9);
-    -webkit-transform: scale(0.9, 0.9);
+    float: left;
+    transform: scale(0.8, 0.8);
+    -ms-transform: scale(0.8, 0.8);
+    -webkit-transform: scale(0.8, 0.8);
     -webkit-filter: drop-shadow(0px 0px 5px #222);
     filter: drop-shadow(0px 0px 5px #222);
 }
 
 .navbaritem {
+    display: inline-block;
     width: 95px;
     font-size: 12px;
     font-weight: bold;
@@ -251,9 +251,6 @@ button {
     margin: auto;
 }
 
-.content {
-}
-
 .footer {
     position: absolute;
     bottom: 0;
@@ -323,14 +320,6 @@ button {
 
 .footerdetailheader {
     color: #73787B
-}
-
-.footercontent-addressdetails {
-    
-}
-    
-.footercontent-telandemaildetails {
-    
 }
     
 .footercontent-socialdetails {
@@ -518,14 +507,6 @@ button {
     .navbarSocialContent {
         display: none;
     }
-    
-    .navbarBadgeLogo {
-        margin-top: -60px;
-        margin-left: -40px;
-        transform: scale(0.4, 0.4);
-        -ms-transform: scale(0.4, 0.4);
-        -webkit-transform: scale(0.4, 0.4);
-    }
 
     .headerCarousel {
         text-align: center;
@@ -623,14 +604,6 @@ button {
     
     .navbarSocialContent {
         display: none;
-    }
-    
-    .navbarBadgeLogo {
-        margin-top: -60px;
-        margin-left: -40px;
-        transform: scale(0.4, 0.4);
-        -ms-transform: scale(0.4, 0.4);
-        -webkit-transform: scale(0.4, 0.4);
     }
 
     .headerCarousel {
@@ -808,16 +781,6 @@ button {
     .navbarContent {
         width: 100%;
         height: 80px;
-        margin-top: 30px;
-    }
-    
-    .navbarBadgeLogo {
-        position: absolute;
-        margin-top: -10px;
-        margin-left: 15px;
-        transform: scale(0.9, 0.9);
-        -ms-transform: scale(0.9, 0.9);
-        -webkit-transform: scale(0.9, 0.9);
     }
 
     .headerCarousel {
@@ -963,18 +926,16 @@ button {
     }
 
     .wrapper, .footercontent-contactdetails, .footercontent-copyrightfooter {
-        width: 70%;
-    }
-}
-
-@media screen and (min-width: 1600px){
-    .contentBody, .navbar {
         width: calc(1440px * 0.8);
     }
 }
 
 @media screen and (min-width: 1440px) {
     /*Any Screen Width Size Starting from 1440 Pixels for Medium Desktop Screens*/
+    .contentBody, .navbar {
+        width: calc(1440px * 0.8);
+    }
+    
     .backgroundHeaderImage {
         margin-left: auto; 
         margin-right: auto;
@@ -997,17 +958,25 @@ button {
         color: white;
     }
 
-    .wrapper, .footercontent-contactdetails, .footercontent-copyrightfooter {
-        width: 70%;
+    .wrapper {
+        width: 100%;
     }
 
     .footercontent-contactdetails, .footercontent-copyrightfooter {
+        width: calc(1440px * 0.8);
         margin-left: auto;
         margin-right: auto;
         left: 0;
         right: 0;
     }
 }
+
+@media screen and (min-width: 1600px){
+    .contentBody, .navbar {
+        width: calc(1440px * 0.8);
+    }
+}
+
 
 @media screen and (min-width: 1920px) {
     /*Any Screen Width Size Starting from 1920 Pixels for Large Desktop Screens that are 1080p or over*/
