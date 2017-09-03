@@ -3,9 +3,9 @@ import ReactDOM from "react-dom";
 
 //Components
 import BackgroundView from "./components/backgroundview";
-import NavBar from "./components/navbar";
-import FooterBar from "./components/footerbar";
-import ContentView from "./components/contentview";
+import NavBar from "./components/navbar/navbar";
+import FooterBar from "./components/footerbar/footerbar";
+import ContentView from "./components/content-view/contentview";
 
 class App extends React.Component {
     render() {
