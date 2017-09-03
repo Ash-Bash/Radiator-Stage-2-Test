@@ -1,0 +1,9 @@
+.apartments-container {
+    float: left;
+    padding: 80px;
+    text-align: left;
+}
+
+.apartments-container h2 {
+    font-weight: lighter;
+}

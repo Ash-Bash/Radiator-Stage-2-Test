@@ -4,11 +4,16 @@
     padding: 80px;
 }
 
+.description-container h2 {
+    font-weight: lighter;
+}
+
 .description-container h2, .description-container p {
     text-align: left;
     width: auto;
     float: left;
 }
+
 .description-paragraph {
     float: left;
     width: 60%;

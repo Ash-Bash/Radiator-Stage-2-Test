@@ -112,6 +112,8 @@
         left: 0;
         right: 0;
         color: white;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     
     .skiing-info h2 {

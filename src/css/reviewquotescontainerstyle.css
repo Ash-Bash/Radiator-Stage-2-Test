@@ -1,0 +1,10 @@
+.reviewquotes-container {
+    position: relative;    
+    width: 100%;
+}
+
+.reviewquotes-container img {
+    width: 100%;
+    height: 475px;
+    object-fit: cover;
+}
