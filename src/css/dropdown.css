@@ -1,0 +1,131 @@
+/*DROPDOWN MENU BUTTON STYLE*/
+
+/* The container <div> - needed to position the dropdown content */
+.navbarmenuitem-dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color:  #00579A;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #00579A; color: white;}
+
+/* Show the dropdown menu on hover */
+.navbarmenuitem-dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*END OF DROPDOWN BOX STYLE*/
+
+@media screen and (max-width: 300px) { 
+    .navbarmenuitem-dropdown {
+        display: block;
+        height: 100%;
+        width: 48px;
+        float: right;
+    }
+}
+
+@media screen and (min-width: 300px) {
+
+    .navbarmenuitem-dropdown {
+        display: block;
+        height: 100%;
+        width: 48px;
+        float: right;
+    }
+}
+
+@media screen and (min-width: 320px) {
+    /*Any Screen Width Size Starting from 320 Pixels for Small Screens Like (iphone5-portrait, android-portrait, etc)*/
+    
+}
+
+@media screen and (min-width: 375px) {
+    /*Any Screen Width Size Starting from 375 Pixels for Medium Screens Like (iphone6-portrait, android-portrait, etc)*/
+}
+
+@media screen and (min-width: 425px) {
+    /*Any Screen Width Size Starting from 425 Pixels for Large Screens Like (iphone6plus-portrait, android-portrait, etc)*/
+}
+
+@media screen and (min-width: 480px) {
+    /*Any Screen Width Size Starting from 480 Pixels for Small Screens in Landscape Mode Like (iphone5-portrait, android-portrait, etc)*/
+
+}
+
+@media screen and (min-width: 640px) {
+
+    .navbarmenuitem-dropdown {
+        width: 70px;
+    }
+}
+
+@media screen and (min-width: 720px) {
+
+}
+
+@media screen and (min-width: 768px) {
+    /*Any Screen Width Size Starting from 768 Pixels for Table Screens in Portrait Mode Like iPad*/
+
+    .navbarmenuitem-dropdown {
+        width: 80px;
+    }
+}
+
+@media screen and (min-width: 813px) {
+    /*Any Screen Width Size Starting from 880 Pixels*/
+}
+
+@media screen and (min-width: 880px) {
+    /*Any Screen Width Size Starting from 880 Pixels*/
+}
+
+@media screen and (min-width: 960px) {
+    /*Any Screen Width Size Starting from 960 Pixels*/
+}
+
+@media screen and (min-width: 1024px) {
+    /*Any Screen Width Size Starting from 1024 Pixels for Small Desktop Screens and Tables in Landscape Mode Like iPad*/
+
+}
+
+@media screen and (min-width: 1280px){
+    .navbarmenuitem-dropdown {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    /*Any Screen Width Size Starting from 1440 Pixels for Medium Desktop Screens*/
+
+}
+
+@media screen and (min-width: 1600px){
+
+}
+
+
+@media screen and (min-width: 1920px) {
+    /*Any Screen Width Size Starting from 1920 Pixels for Large Desktop Screens that are 1080p or over*/
+}

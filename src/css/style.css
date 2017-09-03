@@ -11,8 +11,8 @@ body {
 
 html, body {
     height: 100%;
-    margin: 0;
-    padding: 0;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 button {
@@ -24,45 +24,6 @@ button {
 *:after {
   box-sizing: inherit;
 }
-
-/*DROPDOWN MENU BUTTON STYLE*/
-
-/* The container <div> - needed to position the dropdown content */
-.navbarmenuitem-dropdown {
-    display: inline-block;
-    position: relative;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    right: 0;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    width: 100%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-    color:  #00579A;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    font-weight: bold;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #00579A; color: white;}
-
-/* Show the dropdown menu on hover */
-.navbarmenuitem-dropdown:hover .dropdown-content {
-    display: block;
-}
-
-/*END OF DROPDOWN BOX STYLE*/
 
 /*BASE LAYOUT STYLE*/
 
@@ -305,7 +266,7 @@ button {
 .footercontent-copyrightleftcontent h6, .footercontent-copyrightrightcontent h6 {
     height: 40px; 
     margin: 0px;
-    padding-top: 12px;
+    padding-top: 7px;
     color: #73787B
 }
 
@@ -341,8 +302,7 @@ button {
     border: 1px dotted #B8273E;
     padding-left: 10px;
     padding-right: 10px;
-    margin-top: 20px;
-    text-align: center;
+    padding-top: 7px;
 }
 
 .footercontent-sociallinks {
@@ -357,6 +317,12 @@ button {
     display: inline-block;
     vertical-align: middle;
     text-align: center;
+
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
 }
 
 .headerCarousel {
@@ -369,6 +335,25 @@ button {
     margin-bottom: 80px;
     padding-top: 90px;
     color: white;
+}
+
+.carousel, .slide{
+    width: 90% !important;
+    height: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    left: 0 !important;
+    right: 0 !important;
+    background-color: transparent !important;
+}
+
+.slide {
+    padding-top: 20px !important;
+}
+
+.headerCarousel-container {
+    position: relative;
+    height: 100%;
 }
 
 .contentBody {
@@ -398,7 +383,7 @@ button {
     margin-right: auto;
     left: 0;
     right: 0;
-    padding-top: 5px;
+    padding-top: 20px;
 }
 
 .filterBarItems {
@@ -565,6 +550,10 @@ button {
         width: 100%;
         height: auto;
     }
+
+    .navbar {
+        padding: 0;
+    }
     
     .contentBody, .navbar {
         width: 95%;
@@ -585,6 +574,10 @@ button {
 
     .footercontent-copyrightfooter {
         width: calc(100% - 40px);
+    }
+
+    .footercontent-newsletter {
+        padding-top: 5px;
     }
 
     .footercontent-contactdetails-container {
@@ -630,12 +623,17 @@ button {
     .headerCarousel {
         text-align: center;
         width: 100%;
-        height: 140px;
-        margin-bottom: 20px;
+        height: 160px;
+        padding-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .headerCarousel-container {
+        height: 160px;
     }
 
     .filterbar, .topFilterBar, .bottomFilterBar {
-        height: 258px;
+        height: 230px;
     }
 
     .filterBarItems {
@@ -673,21 +671,20 @@ button {
         height: auto;
     }
     
+    .navbar {
+        padding: 0;
+    }
+
     .contentBody, .navbar {
         width: 95%;
     }
 
-    .headerCarousel {
-        height: 100px;
-        padding-top: 0px;
-    }
-
     .navbarBadgeLogo {
-        margin-top: -60px;
-        margin-left: -20px;
-        transform: scale(0.5, 0.5);
-        -ms-transform: scale(0.5, 0.5);
-        -webkit-transform: scale(0.5, 0.5);
+        margin-top: -70px;
+        margin-left: -30px;
+        transform: scale(0.4, 0.4);
+        -ms-transform: scale(0.4, 0.4);
+        -webkit-transform: scale(0.4, 0.4);
     }
 
     .wrapper, .footercontent-contactdetails{
@@ -714,8 +711,8 @@ button {
         width: calc(100% - 20px);
     }
 
-    .filterbar, .topFilterBar, .bottomFilterBar {
-        height: 258px;
+    .footercontent-newsletter {
+        padding-top: 5px;
     }
 
     .filterBarItems {
@@ -734,6 +731,13 @@ button {
         margin-top: 15px;
     }
     
+}
+
+@media screen and (min-width: 332px) {
+    .footercontent-newsletter {
+        padding-top: 7px;
+        height: 48px;
+    }
 }
 
 @media screen and (min-width: 375px) {
@@ -758,6 +762,7 @@ button {
 @media screen and (min-width: 480px) {
     /*Any Screen Width Size Starting from 480 Pixels for Small Screens in Landscape Mode Like (iphone5-portrait, android-portrait, etc)*/
     .headerCarousel {
+        margin-top: 20px;
         height: 200px;
     }
 }
@@ -781,23 +786,8 @@ button {
         margin-bottom: 30px;
     }
 
-    .filterbar, .topFilterBar, .bottomFilterBar {
-        height: 72px;
-    }
-
-    .filterBarItems {
-        display: inline-block;
-        margin-right: 10px;
-        vertical-align: middle;
-    }
-
-    .filterSelectBox {
-        width: 120px;
-    }
-
-    .filterButton {
-        margin-top: 0px;
-        width: auto;
+    .headerCarousel-container {
+        height: 240px;
     }
 
     .navbarmenuitem {
@@ -833,6 +823,10 @@ button {
         width: 100%;
         height: 200px;
         margin-bottom: 30px;
+    }
+
+    .headerCarousel-container {
+        height: 200px;
     }
 
     .navbarmenuitem-dropdown {
@@ -885,7 +879,8 @@ button {
 
     .footercontent-newsletter {
         width: 100%;
-        height: 72px;
+        height: 48px;
+        padding-top: 7px;
     }
 
     .footercontent-addressdetails, .footercontent-telandemaildetails, .footercontent-socialdetails {
@@ -893,6 +888,28 @@ button {
         width: auto;
     }
 
+}
+
+@media screen and (min-width: 824px) {
+
+    .filterBarItems {
+        display: inline-block;
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+
+    .filterSelectBox {
+        width: 120px;
+    }
+
+    .filterButton {
+        margin-top: 0px;
+        width: auto;
+    }
+
+    .filterbar, .topFilterBar, .bottomFilterBar {
+        height: 72px;
+    }
 }
 
 @media screen and (min-width: 880px) {
@@ -907,7 +924,6 @@ button {
 
     .footercontent-newsletter {
         width: 100%;
-        height: 64px;
     }
 
     .footercontent-addressdetails, .footercontent-telandemaildetails {
@@ -944,6 +960,10 @@ button {
         width: 100%;
         height: 260px;
         margin-bottom: 40px;
+    }
+
+    .headerCarousel-container {
+        height: 260px;
     }
 }
 
@@ -990,6 +1010,10 @@ button {
         height: 400px;
         margin-bottom: 80px;
         padding-top: 90px;
+    }
+
+    .headerCarousel-container {
+        height: 400px;
     }
 }
 

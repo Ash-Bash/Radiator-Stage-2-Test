@@ -5,7 +5,7 @@ export default class FilterBar extends React.Component {
         return (
             <div className="filterbar">
                 <div className="filterbarContent">
-                    <h4 className="filterBarItems">Show me apartments for</h4>
+                    <h6 className="filterBarItems">Show me apartments for</h6>
                     <select className="filterBarItems filterSelectBox" name="sometext">
                         <option>1 Person</option>
                         <option>2 People</option>
@@ -18,7 +18,7 @@ export default class FilterBar extends React.Component {
                         <option>9 People</option>
                         <option>10 People</option>
                     </select>
-                    <h4 className="filterBarItems">in</h4>
+                    <h6 className="filterBarItems">in</h6>
                     <select className="filterBarItems filterSelectBox" name="sometext">
                         <option>March 2017</option>
                         <option>April 2017</option>

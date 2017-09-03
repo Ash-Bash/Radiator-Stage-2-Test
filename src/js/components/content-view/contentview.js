@@ -13,9 +13,7 @@ export default class ContentView extends React.Component {
     render() {
         return (
             <div className="content">
-                <div className="headerCarousel">
-                    <HeaderCarsouselContainer />
-                </div>
+                <HeaderCarsouselContainer />
                 <div className="contentBody">
                     <div className="topFilterBar">
                         <FilterBar />

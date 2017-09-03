@@ -11,21 +11,21 @@ export default class FooterBar extends React.Component {
                     <div className="footercontent-contactdetails-container">
                         <div className="footercontent-contactdetails">
                             <div className="footercontent-addressdetails">
-                                <h3><strong>CHALET LA GIETTAZ</strong></h3>
-                                <h4 className="footerdetailheader">Route du Col des Aravis</h4>
-                                <h4 className="footerdetailheader">73590 La Giettaz</h4>
-                                <h4 className="footerdetailheader">FRANCE</h4>
+                                <h5><strong>CHALET LA GIETTAZ</strong></h5>
+                                <h6 className="footerdetailheader">Route du Col des Aravis</h6>
+                                <h6 className="footerdetailheader">73590 La Giettaz</h6>
+                                <h6 className="footerdetailheader">FRANCE</h6>
                             </div>
                             <div className="footercontent-telandemaildetails">
-                                <h3><strong>TEL</strong></h3>
-                                <h4 className="footerdetailheader">+33 (0)6 73 39 10 73</h4>
-                                <h3><strong>Email</strong></h3>
+                                <h5><strong>TEL</strong></h5>
+                                <h6 className="footerdetailheader">+33 (0)6 73 39 10 73</h6>
+                                <h5><strong>Email</strong></h5>
                                 <a className="hyperlink" href="#">reservations@chalet-la-giettaz.com</a>
                             </div>
                             <div className="footercontent-socialdetails">
                                 <div className="footercontent-newsletter">
                                     <img className="newsletter-icon" src="/images/badges/Mail.png"/>
-                                    <h4 className="footerdetailheader newsletter-title"> Get the Chalet la Ciettaz Newsletter</h4>
+                                    <h6 className="footerdetailheader newsletter-title"> Get the Chalet la Ciettaz Newsletter</h6>
                                 </div>
                                 <div className="footercontent-sociallinks">
                                     <FooterBarSocialItem icon="/images/badges/social_instagram.png" link=""/>
