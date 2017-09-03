@@ -79,9 +79,6 @@
 
 @media screen and (min-width: 320px) {
     /*Any Screen Width Size Starting from 320 Pixels for Small Screens Like (iphone5-portrait, android-portrait, etc)*/
-    .location-description {
-        padding: 20px;
-    }
 
     .location-container {
         height: calc(568px * 2);

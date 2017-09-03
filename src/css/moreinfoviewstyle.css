@@ -1,0 +1,167 @@
+.moreinfo-container {
+    margin-top: 40px;
+}
+
+.moreinfothumbnailcard-container {
+    width: 320px;
+}
+
+.moreinfothumbnailcard-container img {
+    width: 100%;
+    height: auto;
+}
+
+.moreinfothumbnailcard-container h4 {
+    
+ }
+ 
+ .moreinfothumbnailcard-container h5 {
+ 
+ }
+
+.moreinfothumbnailcard-container h4, .moreinfothumbnailcard-container h5 {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+ 
+ .moreinfothumbnailcard-container img, .moreinfoiconcard-container h4, .moreinfoiconcard-container h5 {
+    
+ }
+
+.moreinfoiconcard-container {
+    padding: 40px;
+}
+
+.moreinfo-iconcontainer {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.moreinfoiconcard-container img {
+    float: left;
+    width: 48px;
+    height: 48px;
+}
+
+.moreinfoiconcard-container h4 {
+   
+}
+
+.moreinfoiconcard-container h5 {
+
+}
+
+.moreinfoiconcard-container img, .moreinfoiconcard-container h4, .moreinfoiconcard-container h5 {
+    display: block;
+}
+
+.moreinfothumbnailcard-container h4, .moreinfothumbnailcard-container h5, .moreinfoiconcard-container h4, .moreinfoiconcard-container h5 {
+    margin-top: 10px;
+}
+
+.moreinfoiconcard-container h5, .moreinfothumbnailcard-container h5 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #B8273E;
+}
+
+.moreinfoiconcard-container h4, .moreinfothumbnailcard-container h4 {
+    font-weight: lighter; 
+    color: #00579A;   
+}
+
+.moreinfothumbnailcard-container, .moreinfoiconcard-container {
+    display: inline-table;
+    position: relative;
+    text-align: left;
+    width: 320px;
+    height: 340px;
+    background-color: white;
+    margin: 20px;
+    -webkit-filter: drop-shadow(0px 0px 15px #222);
+    filter: drop-shadow(0px 0px 15px #222);
+}
+
+@media screen and (max-width: 300px) { 
+    .moreinfothumbnailcard-container, .moreinfoiconcard-container {
+        width: 95%;
+    }
+}
+
+@media screen and (min-width: 300px) {
+    .moreinfothumbnailcard-container, .moreinfoiconcard-container {
+        width: 290px;
+    }
+}
+
+@media screen and (min-width: 320px) {
+    /*Any Screen Width Size Starting from 320 Pixels for Small Screens Like (iphone5-portrait, android-portrait, etc)*/
+    .moreinfothumbnailcard-container, .moreinfoiconcard-container {
+        width: 280px;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    /*Any Screen Width Size Starting from 375 Pixels for Medium Screens Like (iphone6-portrait, android-portrait, etc)*/
+    .moreinfothumbnailcard-container, .moreinfoiconcard-container {
+        width: 320px;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    /*Any Screen Width Size Starting from 425 Pixels for Large Screens Like (iphone6plus-portrait, android-portrait, etc)*/
+}
+
+@media screen and (min-width: 480px) {
+    /*Any Screen Width Size Starting from 480 Pixels for Small Screens in Landscape Mode Like (iphone5-portrait, android-portrait, etc)*/
+
+}
+
+@media screen and (min-width: 640px) {
+
+}
+
+@media screen and (min-width: 720px) {
+
+}
+
+@media screen and (min-width: 768px) {
+    /*Any Screen Width Size Starting from 768 Pixels for Table Screens in Portrait Mode Like iPad*/
+
+}
+
+@media screen and (min-width: 813px) {
+    /*Any Screen Width Size Starting from 880 Pixels*/
+}
+
+@media screen and (min-width: 880px) {
+    /*Any Screen Width Size Starting from 880 Pixels*/
+}
+
+@media screen and (min-width: 960px) {
+    /*Any Screen Width Size Starting from 960 Pixels*/
+}
+
+@media screen and (min-width: 1024px) {
+    /*Any Screen Width Size Starting from 1024 Pixels for Small Desktop Screens and Tables in Landscape Mode Like iPad*/
+
+}
+
+@media screen and (min-width: 1280px){
+
+}
+
+@media screen and (min-width: 1440px) {
+    /*Any Screen Width Size Starting from 1440 Pixels for Medium Desktop Screens*/
+
+}
+
+@media screen and (min-width: 1600px){
+
+}
+
+
+@media screen and (min-width: 1920px) {
+    /*Any Screen Width Size Starting from 1920 Pixels for Large Desktop Screens that are 1080p or over*/
+}

@@ -8,6 +8,7 @@ import SkiingContainer from "./skiingcontainer";
 import ApartmentsContainer from "./apartmentscontainer";
 import ReviewQuotesContainer from "./reviewquotescontainer";
 import LocationContainer from "./locationcontainer";
+import MoreInfoView from "./moreinfo-view/moreinfoview";
 
 export default class ContentView extends React.Component {
     render() {
@@ -27,6 +28,7 @@ export default class ContentView extends React.Component {
                         <FilterBar />
                     </div>
                 </div>
+                <MoreInfoView />
             </div>
         );
     }

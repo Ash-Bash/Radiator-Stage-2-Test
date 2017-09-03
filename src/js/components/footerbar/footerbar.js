@@ -6,7 +6,7 @@ import FooterBarSocialItem from "./footerbarsocialitem";
 export default class FooterBar extends React.Component {
     render() {
         return (
-            <div className="footer">
+            <footer className="footer">
                 <div className="footercontent">
                     <div className="footercontent-contactdetails-container">
                         <div className="footercontent-contactdetails">
@@ -45,7 +45,7 @@ export default class FooterBar extends React.Component {
                         </div>
                     </div>
                 </div>
-            </div>
+            </footer>
         );
     }
 }

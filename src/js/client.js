@@ -10,12 +10,10 @@ import ContentView from "./components/content-view/contentview";
 class App extends React.Component {
     render() {
         return (
-            <div className="appView">
+            <div className="wrapper">
                 <BackgroundView className="backgroundView"/>
-                <div className="wrapper">
-                    <NavBar className="navbar"/>
-                    <ContentView className="content"/>
-                </div>
+                <NavBar className="navbar"/>
+                <ContentView className="content"/>
                 <FooterBar className="footer"/>
             </div>
         );
