@@ -925,7 +925,11 @@ button {
         right: 0;
     }
 
-    .wrapper, .footercontent-contactdetails, .footercontent-copyrightfooter {
+    .wrapper {
+        width: 100%;
+    }
+
+    .footercontent-contactdetails, .footercontent-copyrightfooter {
         width: calc(1440px * 0.8);
     }
 }
