@@ -1,0 +1,511 @@
+.description-container {
+    padding: 80px;
+}
+
+.description-container h2, .description-container p {
+    text-align: left;
+    width: auto;
+    float: left;
+}
+.description-paragraph {
+    float: left;
+    width: 60%;
+    padding-right: 10px;
+}
+.description-paragraph, .offer-container {
+    display: inline-block;
+}
+
+.offer-container {
+    float: right;
+    width: 40%;
+    height: auto;
+    padding: 20px;
+    margin-top: 20px;
+    border: 2px dotted #B8273E;
+}
+
+.offer-container h2, .offer-container h5 {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.offer-container h5 {
+    color: #B8273E;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+.offer-container h2 {
+    color: #005596;
+    font-weight: lighter;
+}
+
+.offer-container div {
+    width: 84px;
+    height: 84px;
+    float: left;
+    margin-top: -50px;
+    background-image: url("/images/badges/Ellipse.png");
+}
+
+.offer-icon {
+    width: 54px;
+    height: auto;
+    top: 0;
+    bottom: 0;
+}
+
+.offer-container button {
+    margin-top: 10px;
+    width: 120px;
+    height: 32px;
+    float: left;
+    background-color: #B8273E;
+    color: white;
+    border: 0;
+
+    font-size: 12px;
+}
+
+.offer-container button:hover {
+    background-color: #711321;
+    color: white;
+
+}
+
+.offer-container button:active {
+    background-color: transparent;
+    color: #B8273E;
+    border: 2px solid #B8273E;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 300px) { 
+    .description-container {
+        padding: 20px;
+    }
+    
+    .description-container h2, .description-container p {
+        text-align: left;
+        width: auto;
+        float: left;
+    }
+    .description-paragraph {
+        float: left;
+        width: 100%;
+        padding-right: 10px;
+    }
+    .description-paragraph, .offer-container {
+        display: inline-block;
+    }
+    
+    .offer-container {
+        float: left;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    
+    .offer-container h2, .offer-container h5 {
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+    
+    .offer-container h5 {
+        margin-top: 40px;
+    }
+    
+    .offer-container h2 {
+
+    }
+    
+    .offer-container div {
+        width: 84px;
+        height: 84px;
+        float: left;
+        margin-top: -50px;
+    }
+    
+    .offer-icon {
+        width: 54px;
+        height: auto;
+        top: 0;
+        bottom: 0;
+    }
+    
+    .offer-container button {
+        margin-top: 10px;
+        width: 120px;
+        height: 32px;
+        float: left;
+        font-size: 12px;
+    }
+    
+    .offer-container button:hover {
+
+    
+    }
+    
+    .offer-container button:active {
+
+    }
+}
+
+@media screen and (min-width: 300px) {
+
+    .description-container {
+        padding: 20px;
+    }
+    
+    .description-container h2, .description-container p {
+        text-align: left;
+        width: auto;
+        float: left;
+    }
+    .description-paragraph {
+        float: left;
+        width: 100%;
+        padding-right: 10px;
+    }
+    .description-paragraph, .offer-container {
+        display: inline-block;
+    }
+    
+    .offer-container {
+        float: left;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    
+    .offer-container h2, .offer-container h5 {
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+    
+    .offer-container h5 {
+        margin-top: 40px;
+    }
+    
+    .offer-container h2 {
+
+    }
+    
+    .offer-container div {
+        width: 84px;
+        height: 84px;
+        float: left;
+        margin-top: -50px;
+    }
+    
+    .offer-icon {
+        width: 54px;
+        height: auto;
+        top: 0;
+        bottom: 0;
+    }
+    
+    .offer-container button {
+        margin-top: 10px;
+        width: 120px;
+        height: 32px;
+        float: left;
+        font-size: 12px;
+    }
+    
+    .offer-container button:hover {
+
+    
+    }
+    
+    .offer-container button:active {
+
+    }
+}
+
+@media screen and (min-width: 320px) {
+    /*Any Screen Width Size Starting from 320 Pixels for Small Screens Like (iphone5-portrait, android-portrait, etc)*/
+    
+}
+
+@media screen and (min-width: 375px) {
+    /*Any Screen Width Size Starting from 375 Pixels for Medium Screens Like (iphone6-portrait, android-portrait, etc)*/
+}
+
+@media screen and (min-width: 425px) {
+    /*Any Screen Width Size Starting from 425 Pixels for Large Screens Like (iphone6plus-portrait, android-portrait, etc)*/
+}
+
+@media screen and (min-width: 480px) {
+    /*Any Screen Width Size Starting from 480 Pixels for Small Screens in Landscape Mode Like (iphone5-portrait, android-portrait, etc)*/
+
+}
+
+@media screen and (min-width: 640px) {
+
+}
+
+@media screen and (min-width: 720px) {
+
+}
+
+@media screen and (min-width: 768px) {
+    /*Any Screen Width Size Starting from 768 Pixels for Table Screens in Portrait Mode Like iPad*/
+    .description-container {
+        padding: 40px;
+    }
+    
+    .description-container h2, .description-container p {
+        text-align: left;
+        width: auto;
+        float: left;
+    }
+    .description-paragraph {
+        float: left;
+        width: 60%;
+        padding-right: 10px;
+    }
+    .description-paragraph, .offer-container {
+        display: inline-block;
+    }
+    
+    .offer-container {
+        float: right;
+        width: 40%;
+        height: auto;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    
+    .offer-container h2, .offer-container h5 {
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+    
+    .offer-container h5 {
+        margin-top: 40px;
+    }
+    
+    .offer-container h2 {
+    }
+    
+    .offer-container div {
+        width: 84px;
+        height: 84px;
+        float: left;
+    }
+    
+    .offer-icon {
+        width: 54px;
+        height: auto;
+        top: 0;
+        bottom: 0;
+    }
+    
+    .offer-container button {
+        margin-top: 10px;
+        width: 120px;
+        height: 32px;
+        float: left;    
+        font-size: 12px;
+    }
+    
+    .offer-container button:hover {
+
+    
+    }
+    
+    .offer-container button:active {
+
+    }
+}
+
+@media screen and (min-width: 813px) {
+    /*Any Screen Width Size Starting from 880 Pixels*/
+}
+
+@media screen and (min-width: 880px) {
+    /*Any Screen Width Size Starting from 880 Pixels*/
+}
+
+@media screen and (min-width: 960px) {
+    /*Any Screen Width Size Starting from 960 Pixels*/
+}
+
+@media screen and (min-width: 1024px) {
+    /*Any Screen Width Size Starting from 1024 Pixels for Small Desktop Screens and Tables in Landscape Mode Like iPad*/
+    .description-container {
+        padding: 60px;
+    }
+    
+    .description-container h2, .description-container p {
+        text-align: left;
+        width: auto;
+        float: left;
+    }
+    .description-paragraph {
+        float: left;
+        width: 60%;
+        padding-right: 10px;
+    }
+    .description-paragraph, .offer-container {
+        display: inline-block;
+    }
+    
+    .offer-container {
+        float: right;
+        width: 40%;
+        height: auto;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    
+    .offer-container h2, .offer-container h5 {
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+    
+    .offer-container h5 {
+        margin-top: 40px;
+    }
+    
+    .offer-container h2 {
+    }
+    
+    .offer-container div {
+        width: 84px;
+        height: 84px;
+        float: left;
+    }
+    
+    .offer-icon {
+        width: 54px;
+        height: auto;
+        top: 0;
+        bottom: 0;
+    }
+    
+    .offer-container button {
+        margin-top: 10px;
+        width: 120px;
+        height: 32px;
+        float: left;    
+        font-size: 12px;
+    }
+    
+    .offer-container button:hover {
+
+    
+    }
+    
+    .offer-container button:active {
+
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .description-container {
+        padding: 80px;
+    }
+    
+    .description-container h2, .description-container p {
+        text-align: left;
+        width: auto;
+        float: left;
+    }
+    .description-paragraph {
+        float: left;
+        width: 60%;
+        padding-right: 10px;
+    }
+    .description-paragraph, .offer-container {
+        display: inline-block;
+    }
+    
+    .offer-container {
+        float: right;
+        width: 40%;
+        height: auto;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    
+    .offer-container h2, .offer-container h5 {
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+    
+    .offer-container h5 {
+        margin-top: 40px;
+    }
+    
+    .offer-container h2 {
+    }
+    
+    .offer-container div {
+        width: 84px;
+        height: 84px;
+        float: left;
+    }
+    
+    .offer-icon {
+        width: 54px;
+        height: auto;
+        top: 0;
+        bottom: 0;
+    }
+    
+    .offer-container button {
+        margin-top: 10px;
+        width: 120px;
+        height: 32px;
+        float: left;    
+        font-size: 12px;
+    }
+    
+    .offer-container button:hover {
+
+    
+    }
+    
+    .offer-container button:active {
+
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    /*Any Screen Width Size Starting from 1440 Pixels for Medium Desktop Screens*/
+
+}
+
+@media screen and (min-width: 1600px){
+
+}
+
+
+@media screen and (min-width: 1920px) {
+    /*Any Screen Width Size Starting from 1920 Pixels for Large Desktop Screens that are 1080p or over*/
+}
