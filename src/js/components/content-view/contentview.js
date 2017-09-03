@@ -18,7 +18,7 @@ export default class ContentView extends React.Component {
                 </div>
                 <div className="contentBody">
                     <div className="topFilterBar">
-                        <FilterBar className="topFilterBar"/>
+                        <FilterBar />
                     </div>
                     <DescriptionContainer />
                     <SkiingContainer />
@@ -26,7 +26,7 @@ export default class ContentView extends React.Component {
                     <ReviewQuotesContainer />
                     <LocationContainer />
                     <div className="bottomFilterBar">
-                        <FilterBar className="bottomFilterBar"/>
+                        <FilterBar />
                     </div>
                 </div>
             </div>
