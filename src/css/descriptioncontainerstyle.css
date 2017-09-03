@@ -1,4 +1,6 @@
 .description-container {
+    position: static;
+    float: left;
     padding: 80px;
 }
 

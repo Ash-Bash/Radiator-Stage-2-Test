@@ -19,7 +19,7 @@ export default class ContentView extends React.Component {
                         <FilterBar />
                     </div>
                     <DescriptionContainer />
-                    <SkiingContainer />
+                    <SkiingContainer lifts_open="101" lifts_scheduled="02"/>
                     <ApartmentsContainer />
                     <ReviewQuotesContainer />
                     <LocationContainer />
