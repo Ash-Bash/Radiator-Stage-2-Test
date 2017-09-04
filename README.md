@@ -71,7 +71,7 @@ While developing the responsive features I gave me the chances to improvise wher
 ## Extra stuff done that is to try and showcase my best work & skills
 I added a few shadows to a few elements on the page that was part of the PSD File, for example the NavBar has a shadow behind it while in the PSD File the Logo was the only thing with a shadow in the NavBar.
 
-I Added a real working google map element and not a stock photo and a working tab & gridview in the Apartments Section with JSON Structed data providing the GridView.
+I Added a real working google map element and not a stock photo, added a menu button (which is a dropdown box) when screen size gets too small for people to press the links in the navbar and a working tab & gridview in the Apartments Section with JSON Structed data providing the GridView.
 
 ## Journal
 
