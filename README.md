@@ -55,6 +55,13 @@ This package is an addon to webpack which allows for realtime changes to your pr
 React is a Javascript Framework that help you create more dynamic web pages that could'nt be possible with conventional methods. Also with React it allows you to manage your HTML Code it bitsize pieces which React calls them Components and in my opinion simplifies web development.
 
 ## Troubles while developing this Project
+There was three or four Major issues / bugs that I had while developing this project, but did by the end of this project managed to work theses problems out. The first of which was a bug where the Website / Company Logo bugged out & was stuck in the middle of the Navbar this wasnt the case when it was first implemented because by the time this bug happened I was already onto developing another section of the Webpage which was totally seperate to the NavBar. 
+
+The Second problem was with the Layout the content wasnt adjusting to size (hight wise) everything was hanging off the parent element usually a div tag, this was fixed via a hot fix using `display:` css property or a `float:` css property. 
+
+The third proplem was content underlapping the footer making it that work right on smaller devices, this was fixed by padding the `.wrapper` at the botton by the footer's height depending on which screen size you was one. 
+
+Some of theses bug took 30 mins to an Hour to resolve but all to most where fixed with time & ease.
 
 ## Parts that show off my strengths
 
@@ -69,3 +76,4 @@ On day one I started by thinking of what technologies I wanted to use, then once
 On day two I began by Populating the NavBar with Buttons that had the correct Titles according to what was on the PSD File that was give to me on day one, the NavBar Implementation from the correct items to it being responsive to smaller & bigger screen sizes was completed by noonish. The next item that was one my list was to completely Implement te Footer again from having the correct items that was show in the PSD File to it being 100% responsive on any screen size, this was completed by the end of the day. There was bugs once the Footer was implemented which caused the NavBar Website Logo to glitch out from the left (where it was originally) into dead center no matter which screen size it was which looked ugly but I looked at the CSS code for that logo and knew that that code hasn't touch during day 2 of the task, so I set out to find a fix which led me to remove the CSS Code for that logo a redo the positioning for the logo to scale and stay at the left of the NavBar. The other bug was another NavBar bug that appeared once the Footer was implemented and that was the NavBar Scaling incorrectly at certain screen sizes this was easy to fix just got the the corasponding `@media` query for the screen size that was playing up and tweak the scaling for the NavBar.
 
 ### Day 3
+On day Three was the day when I implemented the majority of the features that was contained in the PSD, along the way there was a few issues but most to all where ironed out. What was added was the Description Container, Skiing Resort Container, Apartment Container, Review Quotes Container, Location Container and the More Info View, theses made up the majority on what was contained in the PSD file which was given.
