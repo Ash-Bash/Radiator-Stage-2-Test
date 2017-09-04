@@ -64,8 +64,14 @@ The third proplem was content underlapping the footer making it that work right 
 Some of theses bug took 30 mins to an Hour to resolve but all to most where fixed with time & ease.
 
 ## Parts that show off my strengths
+My ability to problem solve did help me alot throughout the project, and if I didnt know the answer I knew where to go & look, usually google & stackoverflow, any problems I had I focused on that and left anything I was currently doing on the back burner until I solved a certain problem.
+
+While developing the responsive features I gave me the chances to improvise where elements will go when the screen size becomes alot smaller without any additional info that would of been provided in the project brief.
 
 ## Extra stuff done that is to try and showcase my best work & skills
+I added a few shadows to a few elements on the page that was part of the PSD File, for example the NavBar has a shadow behind it while in the PSD File the Logo was the only thing with a shadow in the NavBar.
+
+I Added a real working google map element and not a stock photo and a working tab & gridview in the Apartments Section with JSON Structed data providing the GridView.
 
 ## Journal
 
