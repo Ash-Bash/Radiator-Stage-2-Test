@@ -790,7 +790,6 @@ button {
     }
 
     .footercontent-copyrightrightcontent {
-        float: right;
         display: inline-block;
     }
 }
