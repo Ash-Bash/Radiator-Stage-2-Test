@@ -90,7 +90,8 @@ export default class ReviewQuotesContainer extends React.Component {
                                 </p>
                                 <h6>March 2010</h6>
                             </div>
-                        </Carousel>  
+                        </Carousel> 
+                        <button className="triadvisor-button">Discover More On TripAdvisor</button> 
                     </div>
                     <div className="reviewqoutes-adview">
                         <TripAdvisorView />

@@ -1,6 +1,6 @@
 .moreinfo-container {
     margin-top: 40px;
-    display: inline-flex;
+    display: inline-table;
 }
 
 
@@ -95,6 +95,10 @@
     .moreinfothumbnailcard-container, .moreinfoiconcard-container {
         width: 290px;
     }
+
+    .moreinfo-container {
+        display: inline-table;
+    }
 }
 
 @media screen and (min-width: 320px) {
@@ -125,7 +129,7 @@
 }
 
 @media screen and (min-width: 720px) {
-
+    
 }
 
 @media screen and (min-width: 768px) {
@@ -148,6 +152,12 @@
 @media screen and (min-width: 1024px) {
     /*Any Screen Width Size Starting from 1024 Pixels for Small Desktop Screens and Tables in Landscape Mode Like iPad*/
 
+}
+
+@media screen and (min-width: 1080px) {
+    .moreinfo-container {
+        display: inline-flex;
+    }
 }
 
 @media screen and (min-width: 1280px){

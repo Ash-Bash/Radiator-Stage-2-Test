@@ -1,7 +1,96 @@
 .triadvisorview {
+    position: relative;
     background-color: white;
     width: 320px;
-    height: 320px;
+    height: 360px;
     -webkit-filter: drop-shadow(0px 0px 15px #222);
     filter: drop-shadow(0px 0px 15px #222);
+}
+
+.triadvisorview-external {
+    position: relative;
+    background-color: white;
+    width: 320px;
+    height: 360px;
+    -webkit-filter: drop-shadow(0px 0px 15px #222);
+    filter: drop-shadow(0px 0px 15px #222);
+}
+
+.triadvisorview img {
+    width: 100%;
+    height: auto;
+}
+
+.triadvisorview-info {
+    color: black;
+    text-align: left;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.triadvisorview-info-dummyrating {
+    width: 66px !important;
+    height: 16px !important;
+}
+
+.triadvisorview-info-reviewbar{ 
+    height: 20px;
+}
+
+.triadvisorview-info-reviewbar img, .triadvisorview-info-reviewbar p {
+    display: inline-block;
+}
+
+.triadvisorview-info-reviewbar p { 
+    margin-left: 10px;
+    color: #00579A;
+}
+
+.triadvisorview-info-rating {
+    padding-bottom: 20px;
+    height: 20px;
+}
+
+.triadvisorview-info-rating p, .triadvisorview-info-rating img {
+    display: inline-block;
+}
+
+.triadvisorview-info-rating img { 
+    width: 40px;
+    height: auto;
+    float: right;
+}
+
+.triadvisorview-info-rating p { 
+    color: #203A17;
+    font-size: 12px;
+}
+
+.triadvisorview-info-button {
+    position: absolute;
+    width: 100%;
+    height: 48px;
+    font-weight: bold;
+    bottom: 0;
+    left: 0;
+    border: 0;
+    background-color: #65AF4A;
+    color: white;
+}
+
+.triadvisorview-info-button:hover {
+    border: 0;
+    background-color: #203A17;
+    color: white;
+}
+
+.triadvisorview-info-button:active {
+    border: 2px solid #65AF4A;;
+    background-color: transparent;
+    color: #65AF4A;
+}
+
+.tripadvisorview-external-container {
+    margin-top: -5px;
 }
