@@ -2,7 +2,6 @@ ul.tabs-nav.navbar.navview-navbar.navview-left {
     margin: 0px;
     padding: 0px;
     list-style: none;
-    height: 64px;
 }
 
 .navview-navbar {
@@ -31,4 +30,99 @@ a.tab-link.apartment-link.active {
 .tabs-active-content {
     display: block;
     padding-top: 30px;
+}
+
+@media screen and (max-width: 300px) { 
+ 
+}
+
+@media screen and (min-width: 300px) {
+    a.tab-link.apartment-link{
+        font-size: 12px;
+    }
+
+    .navview-navbar {
+        display: none;
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 320px) {
+    /*Any Screen Width Size Starting from 320 Pixels for Small Screens Like (iphone5-portrait, android-portrait, etc)*/
+    
+}
+
+@media screen and (min-width: 375px) {
+    /*Any Screen Width Size Starting from 375 Pixels for Medium Screens Like (iphone6-portrait, android-portrait, etc)*/
+}
+
+@media screen and (min-width: 425px) {
+    /*Any Screen Width Size Starting from 425 Pixels for Large Screens Like (iphone6plus-portrait, android-portrait, etc)*/
+}
+
+@media screen and (min-width: 480px) {
+    /*Any Screen Width Size Starting from 480 Pixels for Small Screens in Landscape Mode Like (iphone5-portrait, android-portrait, etc)*/
+
+}
+
+@media screen and (min-width: 640px) {
+
+
+}
+
+@media screen and (min-width: 690px) {
+    .navview-navbar {
+        display: block;
+        flex-direction: row;
+    }
+
+    a.tab-link.apartment-link{
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 720px) {
+
+}
+
+@media screen and (min-width: 768px) {
+    /*Any Screen Width Size Starting from 768 Pixels for Table Screens in Portrait Mode Like iPad*/
+}
+
+@media screen and (min-width: 813px) {
+    /*Any Screen Width Size Starting from 880 Pixels*/
+}
+
+@media screen and (min-width: 880px) {
+    /*Any Screen Width Size Starting from 880 Pixels*/
+}
+
+@media screen and (min-width: 960px) {
+    /*Any Screen Width Size Starting from 960 Pixels*/
+    a.tab-link.apartment-link{
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    /*Any Screen Width Size Starting from 1024 Pixels for Small Desktop Screens and Tables in Landscape Mode Like iPad*/
+
+}
+
+@media screen and (min-width: 1280px){
+
+}
+
+@media screen and (min-width: 1440px) {
+    /*Any Screen Width Size Starting from 1440 Pixels for Medium Desktop Screens*/
+
+}
+
+@media screen and (min-width: 1600px){
+
+}
+
+
+@media screen and (min-width: 1920px) {
+    /*Any Screen Width Size Starting from 1920 Pixels for Large Desktop Screens that are 1080p or over*/
 }

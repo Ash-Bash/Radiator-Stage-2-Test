@@ -5,6 +5,8 @@ export default class ReviewQuotesContainer extends React.Component {
         return (
             <div className="reviewquotes-container">
                 <img src="./images/stella-villa.png"/>
+                <div></div>
+                <div></div>
             </div>
         );
     }

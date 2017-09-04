@@ -47,8 +47,8 @@ export default class GridView extends React.Component {
                 title: "Apartment 2",
                 thumbnail: "./images/apartment4.png",
                 link: "#",
-                numBeds: 0,
-                numPeople: 0
+                numBeds: 3,
+                numPeople: 8
             },
             {
                 title: "Bar L'Escale",
@@ -74,7 +74,7 @@ export default class GridView extends React.Component {
         ];
 
         const apartmentItemData = items.map(function(item, idx) {
-            return <GridViewItem key={idx} title={item.title} thumbnail={item.thumbnail} numBeds={item.numBeds} numPeople={item.numPeople}/>;
+            return <GridViewItem key={idx} className="gridViewItemCell" title={item.title} thumbnail={item.thumbnail} numBeds={item.numBeds} numPeople={item.numPeople}/>;
         });
 
         return (

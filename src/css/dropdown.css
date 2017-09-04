@@ -6,6 +6,11 @@
     position: relative;
 }
 
+.apartmentitems-dropdown {
+    display: inline-block;
+    position: relative;
+}
+
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
@@ -31,7 +36,7 @@
 .dropdown-content a:hover {background-color: #00579A; color: white;}
 
 /* Show the dropdown menu on hover */
-.navbarmenuitem-dropdown:hover .dropdown-content {
+.navbarmenuitem-dropdown:hover .dropdown-content, .apartmentitems-dropdown:active .dropdown-content {
     display: block;
 }
 

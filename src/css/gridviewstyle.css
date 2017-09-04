@@ -1,20 +1,151 @@
 .gridView {
-    width: 100%;
+    position: relative;
     display: grid;
-    grid-gap: 25px;
-    grid-template-columns: repeat(auto-fit, 285px);
-    text-align: center;
+    grid-gap: 50px;
+    grid-template-columns: repeat(auto-fill, 285px);
     width: 100%;
     flex-flow: row wrap;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
 }
 
 .gridViewItemCell {
-    border-radius: 5px;
-    box-shadow: 4px ;
-    padding: auto;
-    margin: auto;
+ 
+}
+
+.gridviewitem-thumbnail {
+    width: 100%;
+    height: auto;
+}
+
+
+.gridviewitem-block {
+    margin-top: 10px;
+}
+
+.gridviewitem-title {
+    float: left;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.gridviewitem-apartmenttypes {
+    float: right;
+}
+
+.gridviewitem-numofbedsindicator {
+    margin-right: 10px;
+}
+
+.gridviewitem-numofpeopleindicator {
+
+}
+
+.gridviewitem-numofbedsindicator, .gridviewitem-numofpeopleindicator {
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+
+.gridviewitem-numofbedsindicator img {
+
+}
+
+.gridviewitem-numofbedsindicator h6 {
+
+}
+
+.gridviewitem-numofpeopleindicator img {
+
+}
+
+.gridviewitem-numofpeopleindicator h6 {
+    
+}
+
+.gridviewitem-numofbedsindicator h6, .gridviewitem-numofpeopleindicator h6 {
+    margin-right: 5px;
+    color: #00579A;
+}
+
+.gridviewitem-numofbedsindicator img, .gridviewitem-numofpeopleindicator img {
+    margin-right: 5px;
+}
+    
+.gridviewitem-numofbedsindicator img, .gridviewitem-numofbedsindicator h6, .gridviewitem-numofpeopleindicator img, .gridviewitem-numofpeopleindicator h6 {
+     display: inline-block;   
+}
+
+@media screen and (max-width: 300px) { 
+
+}
+
+@media screen and (min-width: 300px) {
+
+}
+
+@media screen and (min-width: 320px) {
+    /*Any Screen Width Size Starting from 320 Pixels for Small Screens Like (iphone5-portrait, android-portrait, etc)*/
+    
+}
+
+@media screen and (min-width: 375px) {
+    /*Any Screen Width Size Starting from 375 Pixels for Medium Screens Like (iphone6-portrait, android-portrait, etc)*/
+}
+
+@media screen and (min-width: 425px) {
+    /*Any Screen Width Size Starting from 425 Pixels for Large Screens Like (iphone6plus-portrait, android-portrait, etc)*/
+}
+
+@media screen and (min-width: 480px) {
+    /*Any Screen Width Size Starting from 480 Pixels for Small Screens in Landscape Mode Like (iphone5-portrait, android-portrait, etc)*/
+
+}
+
+@media screen and (min-width: 640px) {
+
+
+}
+
+@media screen and (min-width: 720px) {
+
+}
+
+@media screen and (min-width: 768px) {
+    /*Any Screen Width Size Starting from 768 Pixels for Table Screens in Portrait Mode Like iPad*/
+}
+
+@media screen and (min-width: 813px) {
+    /*Any Screen Width Size Starting from 880 Pixels*/
+}
+
+@media screen and (min-width: 880px) {
+    /*Any Screen Width Size Starting from 880 Pixels*/
+}
+
+@media screen and (min-width: 960px) {
+    /*Any Screen Width Size Starting from 960 Pixels*/
+}
+
+@media screen and (min-width: 1024px) {
+    /*Any Screen Width Size Starting from 1024 Pixels for Small Desktop Screens and Tables in Landscape Mode Like iPad*/
+
+}
+
+@media screen and (min-width: 1280px){
+
+}
+
+@media screen and (min-width: 1440px) {
+    /*Any Screen Width Size Starting from 1440 Pixels for Medium Desktop Screens*/
+
+}
+
+@media screen and (min-width: 1600px){
+
+}
+
+
+@media screen and (min-width: 1920px) {
+    /*Any Screen Width Size Starting from 1920 Pixels for Large Desktop Screens that are 1080p or over*/
 }
