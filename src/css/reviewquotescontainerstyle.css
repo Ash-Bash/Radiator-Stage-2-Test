@@ -32,6 +32,7 @@
 
 .reviewquotes-carousel h6{
     text-align: right;
+    margin-top: 10px;
 }
 
 .reviewquotes-carousel p{
@@ -42,12 +43,150 @@
 
 }
 
-.reviewquotes-carousel h6, .reviewquotes-carousel p{
-   
+.reviewQuote {
+    position: relative;
+    vertical-align: top;
+    float: left;
+    width: 48px;
+    height: 48px;
+    background-image: url('../images/badges/quote.png');
+    background-size: 48px;
+    margin: 10px !important;
+    
+}
+
+.reviewquotes-carousel h6, .reviewquotes-carousel p {
+
 }
 
 .reviewquotes-carousel, .reviewqoutes-adview {
     display: inline-block;
     padding: 80px;
     height: 475px;
+}
+
+.reviewsCarousel-container {
+    position: relative;
+    height: 100%;
+}
+
+@media screen and (max-width: 300px) { 
+    .reviewquotes-carousel {
+        display: block;
+        width: 100%;
+    }
+
+    .reviewqoutes-adview {
+        display: none;
+
+    }
+}
+
+@media screen and (min-width: 300px) {
+    .reviewquotes-carousel {
+        display: block;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .reviewqoutes-adview {
+        display: none;
+
+    }
+}
+
+@media screen and (min-width: 320px) {
+    /*Any Screen Width Size Starting from 320 Pixels for Small Screens Like (iphone5-portrait, android-portrait, etc)*/
+    
+}
+
+@media screen and (min-width: 375px) {
+    /*Any Screen Width Size Starting from 375 Pixels for Medium Screens Like (iphone6-portrait, android-portrait, etc)*/
+    .reviewquotes-carousel {
+        padding: 20px;
+    }
+}
+
+@media screen and (min-width: 414px) {
+    /*Any Screen Width Size Starting from 425 Pixels for Large Screens Like (iphone6plus-portrait, android-portrait, etc)*/
+
+}
+
+@media screen and (min-width: 425px) {
+    /*Any Screen Width Size Starting from 425 Pixels for Large Screens Like (iphone6plus-portrait, android-portrait, etc)*/
+}
+
+@media screen and (min-width: 480px) {
+    /*Any Screen Width Size Starting from 480 Pixels for Small Screens in Landscape Mode Like (iphone5-portrait, android-portrait, etc)*/
+    
+}
+
+@media screen and (min-width: 640px) {
+
+
+}
+
+@media screen and (min-width: 690px) {
+
+}
+
+@media screen and (min-width: 720px) {
+
+}
+
+@media screen and (min-width: 768px) {
+    /*Any Screen Width Size Starting from 768 Pixels for Table Screens in Portrait Mode Like iPad*/
+    .reviewquotes-carousel {
+        padding: 40px;
+    }
+}
+
+@media screen and (min-width: 813px) {
+    /*Any Screen Width Size Starting from 880 Pixels*/
+}
+
+@media screen and (min-width: 880px) {
+    /*Any Screen Width Size Starting from 880 Pixels*/
+}
+
+@media screen and (min-width: 960px) {
+    /*Any Screen Width Size Starting from 960 Pixels*/
+}
+
+@media screen and (min-width: 1024px) {
+    /*Any Screen Width Size Starting from 1024 Pixels for Small Desktop Screens and Tables in Landscape Mode Like iPad*/
+
+}
+
+@media screen and (min-width: 1280px){
+
+    .reviewquotes-carousel {
+        width: 60%;
+    }
+    .reviewquotes-carousel, .reviewqoutes-adview {
+        display: inline-block;
+        padding: 60px;
+        height: 475px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    /*Any Screen Width Size Starting from 1440 Pixels for Medium Desktop Screens*/
+    .reviewquotes-carousel, .reviewqoutes-adview {
+        padding: 70px;
+    }
+}
+
+@media screen and (min-width: 1600px){
+    .reviewquotes-carousel, .reviewqoutes-adview {
+        padding: 75px;
+    }
+}
+
+
+@media screen and (min-width: 1920px) {
+    /*Any Screen Width Size Starting from 1920 Pixels for Large Desktop Screens that are 1080p or over*/
+    .reviewquotes-carousel, .reviewqoutes-adview {
+        padding: 80px;
+    }
 }

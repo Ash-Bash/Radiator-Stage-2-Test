@@ -6,7 +6,7 @@ export default class HeaderCarsouselContainer extends React.Component {
     render() {
         return (
             <div className="headerCarousel">
-                <Carousel className="headerCarousel-container" axis="horizontal" showThumbs={false} showArrows={true} emulateTouch>
+                <Carousel className="headerCarousel-container" axis="horizontal" showStatus={false} showThumbs={false} showArrows={false} emulateTouch>
                     <div>
                         <h2>THE PERFECT</h2>
                         <br />
