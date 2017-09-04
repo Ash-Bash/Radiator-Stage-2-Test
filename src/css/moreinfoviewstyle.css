@@ -1,6 +1,8 @@
 .moreinfo-container {
     margin-top: 40px;
+    display: inline-flex;
 }
+
 
 .moreinfothumbnailcard-container {
     width: 320px;

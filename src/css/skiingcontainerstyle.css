@@ -1,6 +1,6 @@
 .skiing-container {
-    position: relative;    
-    width: 100%;
+    position: relative; 
+    float: left;   
 }
 
 .skiing-container img {

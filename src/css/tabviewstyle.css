@@ -2,6 +2,7 @@ ul.tabs-nav.navbar.navview-navbar.navview-left {
     margin: 0px;
     padding: 0px;
     list-style: none;
+    height: 54px;
 }
 
 .navview-navbar {
@@ -33,7 +34,7 @@ a.tab-link.apartment-link.active {
 }
 
 @media screen and (max-width: 300px) { 
- 
+    
 }
 
 @media screen and (min-width: 300px) {
